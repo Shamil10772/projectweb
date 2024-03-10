@@ -5,6 +5,7 @@
             <th>ID</th>
             <th>Nama</th>
             <th>Harga</th>
+            <link rel="stylesheet" href="/style/tailwindcss3.4.1.js">
         </tr>
     </thead>
     <tbody>

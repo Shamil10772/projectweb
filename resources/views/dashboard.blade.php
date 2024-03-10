@@ -11,5 +11,6 @@
 
   <!-- Tautan untuk pergi ke halaman selanjutnya -->
   <a href="http://localhost:8000/listbarang">Go to List barang</a>
+  <link rel="stylesheet" href="/style/tailwindcss3.4.1.js">
 </body>
 </html>
