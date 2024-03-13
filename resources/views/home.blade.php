@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
-  <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+  <title>Nama Website Anda</title>
+  <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
 </head>
-<body class="bg-gray-200">
-
-<header class="bg-gray-900 text-white py-4 text-center">
-  <h1>Hello, this is laravel CSS home</h1>
-  <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Contact Me</a></li>
-      <li><a href="#">Dashboard</a></li>
-    </ul>
-  </nav>
-</header>
-
-<div class="container mx-auto mt-8 flex justify-center">
-    <img src="{{ asset('gambar/david de gea.JPEG') }}" alt="Laravel" width="300" class="mr-4">
-    <img src="{{ asset('gambar/david de gea1.JPEG') }}" alt="Laravel" width="300">
-</div>
-
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Logo Website">
+    </div>
+    <h1>Nama Website Anda</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#">Tentang Kami</a></li>
+        <li><a href="#">Produk</a></li>
+        <li><a href="#">Layanan</a></li>
+        <li><a href="#">Kontak</a></li>
+        <li><a href="#">Menu Lainnya</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    </main>
+  <footer>
+  </footer>
 </body>
 </html>
-
