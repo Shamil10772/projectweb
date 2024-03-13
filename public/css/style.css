@@ -1,3 +1,38 @@
-h1 {
-    color: red;
-}
+/* atur navigasi */
+.navbar {
+    background-color: #333; /* warna latar belakang navbar */
+    height: 50px; /* tinggi navbar */
+    display: flex; /* susun item menu secara horizontal */
+    justify-content: space-between; /* bagi rata jarak antar item menu */
+    padding: 0 2rem; /* tambahkan padding kiri-kanan */
+  }
+
+  /* atur item menu */
+  .navbar ul li {
+    list-style: none; /* hilangkan bullet point */
+    margin-right: 1rem; /* tambahkan jarak antar item menu */
+  }
+
+  /* atur link pada item menu */
+  .navbar ul li a {
+    text-decoration: none; /* hilangkan garis bawah */
+    color: white; /* warna teks menu */
+    font-size: 16px; /* ukuran font teks menu */
+    padding: 10px 15px; /* tambahkan padding atas-bawah dan kanan-kiri */
+  }
+
+  /* efek hover pada link menu (opsional) */
+  .navbar ul li a:hover {
+    background-color: #ccc; /* ubah warna latar saat hover */
+  }
+
+  /* atur container untuk menampung logo/judul (opsional) */
+  .navbar .container {
+    display: flex; /* susun logo/judul dan item menu secara horizontal */
+    align-items: center; /* sejajarkan logo/judul dan item menu secara vertikal */
+  }
+
+  /* atur logo/judul (opsional) */
+  .navbar .container .logo {
+    margin-right: 1rem; /* tambahkan jarak antara logo/judul dan item menu */
+  }

@@ -1,78 +1,77 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Login</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
+<html lang="en">  <head>
+  <title>Login</title>
+  <style>
+    /* Styles for the entire page */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex; /* Center the form horizontally */
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;  /* Set minimum height for full viewport coverage */
+      background-color: #f0f0f0;  /* Light background color */
+    }
 
-        .login-container {
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            padding: 40px;
-            width: 300px;
-            text-align: center;
-        }
+    /* Styles for the login form */
+    form {
+      width: 300px;
+      padding: 20px;
+      border-radius: 5px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
 
-        .login-container h2 {
-            margin-bottom: 20px;
-            color: #333333;
-        }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
 
-        .login-container input[type="text"],
-        .login-container input[type="password"] {
-            width: calc(100% - 20px);
-            padding: 10px;
-            margin-bottom: 20px;
-            border: 1px solid #cccccc;
-            border-radius: 5px;
-            box-sizing: border-box;
-        }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
 
-        .login-container input[type="submit"] {
-            width: 100%;
-            padding: 10px;
-            background-color: #4CAF50;
-            color: #ffffff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      box-sizing: border-box;  /* Ensure consistent width with padding */
+      margin-bottom: 15px;
+    }
 
-        .login-container input[type="submit"]:hover {
-            background-color: #45a049;
-        }
+    button[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #3498db; /* Adjust button color as desired */
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
 
-        .login-container p {
-            margin-top: 15px;
-            font-size: 14px;
-        }
-    </style>
+    button[type="submit"]:hover {
+      background-color: #2980b9; /* Darker shade on hover */
+    }
+  </style>
 </head>
 <body>
-
-<h2>Login</h2>
-
-<form method="POST" action="{{ route('login.process') }}">
+  <form method="POST" action="{{ route('login.process') }}">
     @csrf
-    <label>Username:</label><br>
-    <input type="username" name="username"><br>
+    <h2>Login</h2>
 
-    <label>Password:</label><br>
-    <input type="password" name="password"><br>
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username" required><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br>
 
     <button type="submit">Login</button>
-</form>
-
+  </form>
 </body>
 </html>
+
