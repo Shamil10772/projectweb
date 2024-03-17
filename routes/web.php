@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AboutController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LoginController;
@@ -11,6 +12,7 @@ Route::post('/login', [LoginController::class, 'processLogin'])->name('login.pro
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 Route::get('/barang', [ListBarangController::class, 'index'])->name('ListBarang');
+Route::get('/About', [AboutController::class, 'index'])->name('About');
 Route::get('/listbarang', [ListBarangController::class, 'tampilkan']);
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/contact', [HomeController::class, 'contact']);
