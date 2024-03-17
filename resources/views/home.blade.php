@@ -1,21 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar Learning</title>
+    <title>Home Page</title>
 </head>
 <body>
-  <div class="fContainer">
-    <nav class="wrapper">
-      <ul>
-        <li><a></a></li>
-        <li><a></a></li>
-        <li><a></a></li>
-      </ul>
-    </nav>
-  </div>
+    <h1>Welcome to My Website!</h1>
+    <!-- Your content here -->
 </body>
 </html>
+
 
