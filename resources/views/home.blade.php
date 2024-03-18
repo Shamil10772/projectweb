@@ -13,10 +13,11 @@
         <div class="navbar">
             <div class="logo"><a href="#">Web Develop PBL</a></div>
             <ul class="links">
-                <li><a href="hero">home</a></li>
-                <li><a href="{{ route('dashboard') }}">Dashboard</a></li>
-                <li><a href="{{ route('About') }}">About</a></li>
+                <li><a href="hero">Beranda</a></li>
+                <li><a href="dashboard">Dashboard</a></li>
+                <li><a href="About">About</a></li>
                 <li><a href="contact">Contact</a></li>
+                <li><a href="login">Login</a></li>
             </ul>
             <a href="#" class="action_btn">Login</a>
             <div class="toggle_btn">
@@ -26,7 +27,7 @@
 
         <div class="dropdown_menu">
           <li><a href="hero">home</a></li>
-            <li><a href="{{ route('dashboard') }}">Dashboard</a></li>
+            <li><a href="dashboard">Dashboard</a></li>
             <li><a href="about">About</a></li>
             <li><a href="contact">Contact</a></li>
             <li><a href="#" class="action_btn">Login</a></li>
@@ -35,8 +36,8 @@
 
     <main>
       <section id="hero">
-        <h1>Welcome</h1>
-        <p>Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Impedit, earum nihil voluptatem ex molestiae incidunt totam temporibus. Esse aliquid fugiat cum id saepe, voluptatum ut molestias minima, itaque voluptatibus dolorem.</p>
+        <h1>Selamat datang di proyek PBL</h1>
+        <p>Ini adalah tugas sistem informasi <br /> dibuat untuk memenuhi kebutuhan pengguna mengenai aplikasi manajemen stok atau aplikasi kasir</p>
       </section>
     </main>
 
