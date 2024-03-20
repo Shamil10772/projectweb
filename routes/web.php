@@ -15,6 +15,7 @@ Route::get('/barang', [ListBarangController::class, 'index'])->name('ListBarang'
 Route::get('/About', [AboutController::class, 'index'])->name('About');
 Route::get('/listbarang', [ListBarangController::class, 'tampilkan']);
 Route::get('/', [HomeController::class, 'index']);
+Route::get('/contact', [HomeController::class, 'contact']);
 
 Route::prefix('admin')->group(function () {
     Route::get('/dashboard', function () {
