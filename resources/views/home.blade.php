@@ -16,7 +16,6 @@
                 <li><a href="hero">Beranda</a></li>
                 <li><a href="dashboard">Dashboard</a></li>
                 <li><a href="About">About</a></li>
-                <li><a href="contact">Contact</a></li>
                 <li><a href="login">Login</a></li>
             </ul>
             <a href="#" class="action_btn">Login</a>
@@ -29,7 +28,6 @@
           <li><a href="hero">home</a></li>
             <li><a href="dashboard">Dashboard</a></li>
             <li><a href="about">About</a></li>
-            <li><a href="contact">Contact</a></li>
             <li><a href="#" class="action_btn">Login</a></li>
         </div>
     </header>
