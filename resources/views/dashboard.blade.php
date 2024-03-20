@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>@yield('title', 'My App')</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"  rel="stylesheet" />
 </head>
 <body>
-    <h1>Harus login terlebih dahulu</h1>
+    <header>
+        @include('components.header')
+    </header>
+
+    <h1>List Produk</h1>
+    <div class="container">
+        <main>
+            @yield('content')
+        </main>
+    </div>
+
+    <footer>
+        @include('components.sidebar')
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 </body>
 </html>
 
